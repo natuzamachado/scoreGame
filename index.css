@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(239, 236, 236);
+    margin-top: 3%;
+    display: grid;
+    justify-items: center;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 120px;
+    padding: 5px 5px 5px 5px;
+    background: #080001;
+    margin-bottom: 26px;
+    border-radius: 5px;
+}
+.points {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    color: #F94F6D;
+} 
+.content{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-items: center;
+    align-items: flex-start;
+    align-content: space-around;
+    padding: 0px 52px 10px 52px;
+    align-content: center;
+    align-items: center;
+    width: 500px;
+    height: 450px;
+    background-color: #1B244A;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: #EEEEEE;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.btns {
+    display: grid;
+    grid-template-columns:  repeat(3, 30%);
+    grid-column-gap: 9px;
+    justify-content: space-between;
+    background-color: inherit;
+   
+}
+.btn {
+    display: flex;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 23px 35px 23px 10px;
+}
+button, p {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    background-color: inherit;
+    color: #9AABD8;
+   
+}
+.col {
+    width: 170px;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+
+}
+.clearBtn {
+  position: absolute;
+  justify-self: center;
+  align-self: flex-end;
+ 
+}
+#clear {
+    border: 2px solid #9AABD8;
+    background-color: #EEEEEE;
+    color: #1B244A;
+    font-size: 18px;
+    border-radius: 1.2em;
+    padding: 5px 18px 5px 18px;
+    margin-bottom: 15px;
+    font-family: Verdana, sans-serif;
+}
